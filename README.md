@@ -4,7 +4,7 @@ Simply Python terminal mind mapping tool
 ## installation:
 ```
 [admin@test ~]$ mkdir -p ~/.local/bin ~/.local/app/lib/
-[admin@test ~]$ cd ~/.local/app/lib/TMaps
+[admin@test ~]$ cd ~/.local/app/lib/
 [admin@test TMaps]$ git clone https://github.com/SLusenti/TMaps.git
 [admin@test TMaps]$ ln -s ~/.local/app/lib/TMaps/map.py ~/.local/bin/tmaps
 ```
