@@ -65,5 +65,6 @@ cpch <DEST>          copy all terminal child to dest
 cplabel <DEST>       copy only label of current selection to DEST
 cplabelch <DEST>     copy only label of all child to DEST
 pwd                  return path from ID 0 to current
+bye                  save and exit
 ```
 
