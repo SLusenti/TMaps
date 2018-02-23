@@ -317,10 +317,11 @@ def help():
   print "cplabel <DEST>       copy only label of current selection to DEST"
   print "cplabelch <DEST>     copy only label of all child to DEST"
   print "pwd                  return path from ID 0 to current"
+  print "bye                  save and exit"
 
 def __complete(text, state):
   options = sorted(["ls","find","findbr","cd","add","lsch","mod","rm","rmbr","rmch","save","mv","mvbr","mvch","display",
-                    "cp","cpch","cpbr","cplabel","cplabelch","pwd","help","ifind","ifindbr"])
+                    "cp","cpch","bye","cpbr","cplabel","cplabelch","pwd","help","ifind","ifindbr"])
   matches = []
   if text:
     matches = [s for s in options if s and s.startswith(text)]
