@@ -45,8 +45,8 @@ insert root label :> test
 ls                   map-tree the branch
 find <REGEX>         find in the database all the label that match <REGEX>
 findbr <REGEX>       find in the current branch all the label that match <REGEX>
-ifind <REGEX>        find in the database all the label that match <REGEX> without Sensitive Case
-ifindbr <REGEX>      find in the current branch all the label that match <REGEX> without Sensitive Case
+ifind <REGEX>        find in the database all the label that match <REGEX> without Case Sensitive.
+ifindbr <REGEX>      find in the current branch all the label that match <REGEX> without Case Sensitive.
 cd <ID>              change the current selected branch to <ID>
 add <LABEL>          add child to the current brach with label <LABEL>
 lsch                 list only the direct child of the current brach
