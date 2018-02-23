@@ -1,7 +1,7 @@
 # TMaps
-simply python terminal mind mapping tools.
+Simply Python terminal mind mapping tool
 
-installation:
+## installation:
 ```
 [admin@test ~]$ mkdir -p ~/.local/bin ~/.local/app/lib/
 [admin@test ~]$ cd ~/.local/app/lib/TMaps
@@ -23,7 +23,7 @@ update PATH and .bash_profile
 /usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/admin/.local/bin
 [admin@test ~]$ sed "/^PATH/ s/PATH.*/PATH\=$(echo $PATH | sed -e "s;\/;\\\/;g")/" .bash_profile 
 ```
-usage:
+## usage:
 ```
 [admin@test ~]$ #create new map
 [admin@test ~]$ tmaps <MAP-NAME>
