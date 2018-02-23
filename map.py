@@ -6,15 +6,20 @@ import sys
 import re
 import readline
 
+
 com = ""
 currento = {}
 #path =  os.path.dirname(os.path.abspath(sys.argv[0]))
-path = "/var/tmaps"
+path = os.path.dirname(os.path.realpath(__file__))
 chartdata = {u"maxid":0,u"label":u"",u"id": u"0", u"data":[]}
 ttyrows, ttycols = os.popen('stty size', 'r').read().split()
 ttycols = int(ttycols)
 ttyrows = int(ttyrows)
 chartname = sys.argv[1]
+if not os.path.exists(path+"/history"):
+    os.makedirs(path+"/history")
+if not os.path.exists(path+"/data"):
+    os.makedirs(path+"/data")
 
 def parsecommand(rawcommand):
   comargv = ""
