@@ -35,11 +35,6 @@ insert root label :> test
 <: test 0:> ls
 (0) test
      
-<: test 0:>
-insert root label :> test
-<: test 0:> ls
-(0) test
-     
 <: test 0:> add test1
 <: test 0:> ls
 (0) test
