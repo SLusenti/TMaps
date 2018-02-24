@@ -405,6 +405,8 @@ def init():
         find(argv)
       elif com == "ifindbr":
         find(argv,currento)
+      elif com== "#":
+        pass
       else:
         print "command not found or invalid arguments"
 
